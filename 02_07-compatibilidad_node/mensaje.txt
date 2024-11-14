@@ -1,0 +1,1 @@
+Hola desde el archivo de texto con la API fs de Node.js y Bun.

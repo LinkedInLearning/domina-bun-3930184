@@ -1,0 +1,11 @@
+{
+  "name": "05-01-entonro-de-pruebas",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

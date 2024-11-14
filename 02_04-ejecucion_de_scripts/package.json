@@ -1,0 +1,20 @@
+{
+  "name": "mi-proyecto",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "prestart": "mkdir tests",
+    "start":"bun run index.ts",
+    "poststart": "echo '========= Proceso terminado ========='"
+  },
+  "dependencies": {
+    "@types/figlet": "^1.7.0",
+    "figlet": "^1.8.0"
+  }
+}

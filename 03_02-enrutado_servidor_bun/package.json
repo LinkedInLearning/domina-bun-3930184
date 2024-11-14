@@ -1,0 +1,14 @@
+{
+  "name": "mi-server",
+  "module": "./src/server.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "start": "bun ./src/server.js --watch"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
